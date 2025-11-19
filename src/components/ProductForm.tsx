@@ -36,8 +36,7 @@ export default function ProductForm({product}: ProductFormProps) {
                     defaultValue={product?.price}
                     //defaultValue={state.product.price} // Cuando usamos useLocation
                 />
-            </div>  
-        
+            </div> 
         </>
     )
 }
