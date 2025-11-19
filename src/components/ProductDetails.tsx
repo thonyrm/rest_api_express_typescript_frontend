@@ -66,7 +66,6 @@ export default function ProductDetails({product}: ProductDetailsProps) {
                             value= 'Eliminar'
                             className="bg-red-600 text-white rounded-lg w-full p-2 uppercase, font-bold text-xs text-center hover:cursor-pointer"
                         />
-                        
                     </Form>
                 </div>
             </td>
