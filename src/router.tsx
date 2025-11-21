@@ -14,7 +14,8 @@ export const router = createBrowserRouter([
                 index: true,
                 element: <Products/>,
                 loader: productsLoader,
-                action: updateAvailabilityAction
+                action: updateAvailabilityAction,
+                hydrateFallbackElement: <p>Cargando...</p>,
             },
             {
                 path: 'productos/nuevo',
